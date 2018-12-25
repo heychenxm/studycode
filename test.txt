@@ -2,3 +2,4 @@ hello world
 
 这是命令行添加的内容
 
+i am a test

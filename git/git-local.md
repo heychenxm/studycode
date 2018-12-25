@@ -28,7 +28,21 @@ git config --global user.email='你的邮箱'
 ## 初始化git
 ```
 git init 告诉git哪个文件夹被git所管理
+git status 查看git状态
+```
 
+## 删除暂存区
+```
+git rm --cached . -r 删除暂存区文件
+```
+
+## 添加到暂存区
+```
+git add ./ -A/ 文件名
+```
+## 添加到历史区
+```
+git commit -m '注释内容'
 ```
 
 ## linux命令
@@ -43,3 +57,4 @@ git init 告诉git哪个文件夹被git所管理
 - vi <文件名> 编辑文件
     - i:插入模式，esc退出编辑模式 :q！强制退出
     :wq 保存并退出
+
