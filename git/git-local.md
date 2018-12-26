@@ -45,6 +45,20 @@ git add ./ -A/ 文件名
 git commit -m '注释内容'
 ```
 
+## git查看日志
+- git log   查看日志
+
+## git的撤销
+- git diff 工作区和暂存区
+- git diff 分支名      工作区和历史区
+- git diff --cached     暂存区和历史区比较
+
+## 撤销
+- 从暂存区中将工作区内容覆盖掉
+```
+git checkout 文件名
+```
+
 ## linux命令
 - pwd print working directory 打印当前目录
 - rm -rf <文件夹> 删除文件（递归删除）
