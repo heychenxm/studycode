@@ -44,9 +44,13 @@ git add ./ -A/ 文件名
 ```
 git commit -m '注释内容'
 ```
+```
+git commit -a -m '注释内容'  // 使用前提是文件之前有提交过
+```
 
 ## git查看日志
 - git log   查看日志
+- git reflog  查看所有版本
 
 ## git的撤销
 - git diff 工作区和暂存区
@@ -58,6 +62,28 @@ git add ./ -A/ 文件名
 ```
 git checkout 文件名
 ```
+```
+git reset HEAD <文件名>
+git reset --hard 版本号     // 回滚版本
+git reset --hard HEAD^      // 回滚到上一个版本
+```
+
+## 创建分支
+```
+git branch <分支名>
+git branch 查看分支
+```
+
+## 切换分支
+```
+git checkout <分支名>
+```
+
+# 删除分支
+```
+git branch -D <分支名>
+```
+> 删除分支时，当前用户不能再当前要删的分支上
 
 ## linux命令
 - pwd print working directory 打印当前目录
