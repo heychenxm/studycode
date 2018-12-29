@@ -126,3 +126,8 @@ echo <内容> >> <文件名>         // 追加内容
 - README.md
 - 创建一个.gitignore
 - git不会上传空文件夹,可以在文件夹中创建.gitkeep文件保证文件夹上传
+
+## 关联远程仓库
+```
+git remote add origin 地址
+```
